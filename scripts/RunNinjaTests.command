@@ -5,7 +5,7 @@ echo " Starting NinjaV6 Maven Test Run"
 echo "========================================"
 echo ""
 
-cd /Users/raymondrohring/eclipse-workspace/NinjaV6
+cd /Users/raymondrohring/eclipse-workspace/NinjaV7
 mvn clean test
 
 echo ""
