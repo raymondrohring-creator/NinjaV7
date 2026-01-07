@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count = "5" name = "Suite" parallel = "tests">
+<groups>
+<run>
+<!--<include name = "sanity"/>-->
+<include name = "regression"/>
+<!--<include name = "datadriven"/>-->
+</run>
+</groups>
+<listeners>
+<listener class-name = "utilities.ExtentReportManager"/>
+</listeners>
+  <test name="chromeTest">
+  <parameter name = "os" value = "mac"/>
+  <parameter name = "browser" value = "chrome"/>
+    <classes>
+      <class name = "testCases.TC01_LaunchApplication"/>
+      <class name = "testCases.TC02_Login"/>
+      <class name = "testCases.TC03_AddToCart"/>
+      <class name = "testCases.TC04_CompletePurchase"/>
+      <class name = "testCases.TC05_AddToWishList"/>
+      <class name = "testCases.TC06_AddAffiliate"/>
+    </classes>
+  </test>
+<!--  <test name="safariTest">
+  <parameter name = "os" value = "mac"/>
+  <parameter name = "browser" value = "safari"/>
+    <classes>
+      <class name = "testCases.TC01_LaunchApplication"/>
+      <class name = "testCases.TC02_Login"/>
+      <class name = "testCases.TC03_AddToCart"/>
+      <class name = "testCases.TC04_CompletePurchase"/>
+      <class name = "testCases.TC05_AddToWishList"/>
+      <class name = "testCases.TC06_AddAffiliate"/>
+    </classes>
+  </test>-->
+  <test name="firefoxTest">
+  <parameter name = "os" value = "mac"/>
+  <parameter name = "browser" value = "firefox"/>
+    <classes>
+      <class name = "testCases.TC01_LaunchApplication"/>
+      <class name = "testCases.TC02_Login"/>
+      <class name = "testCases.TC03_AddToCart"/>
+      <class name = "testCases.TC04_CompletePurchase"/>
+      <class name = "testCases.TC05_AddToWishList"/>
+      <class name = "testCases.TC06_AddAffiliate"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->

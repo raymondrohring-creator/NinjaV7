@@ -1,0 +1,952 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="8" ignored="0" total="30" passed="18" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-05T16:29:21 EST" name="Suite" finished-at="2026-01-05T16:30:45 EST" duration-ms="83873">
+    <groups>
+      <group name="datadriven">
+        <method signature="TC02_Login.testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@77825085]" name="testLogin" class="testCases.TC02_Login"/>
+        <method signature="TC02_Login.testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@22bac7bc]" name="testLogin" class="testCases.TC02_Login"/>
+        <method signature="TC02_Login.testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@32f232a5]" name="testLogin" class="testCases.TC02_Login"/>
+      </group> <!-- datadriven -->
+      <group name="regression">
+        <method signature="TC01_LaunchApplication.testLaunchApplication()[pri:0, instance:testCases.TC01_LaunchApplication@3da30852]" name="testLaunchApplication" class="testCases.TC01_LaunchApplication"/>
+        <method signature="TC02_Login.testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@77825085]" name="testLogin" class="testCases.TC02_Login"/>
+        <method signature="TC03_AddToCart.testAddToCart()[pri:0, instance:testCases.TC03_AddToCart@3568f9d2]" name="testAddToCart" class="testCases.TC03_AddToCart"/>
+        <method signature="TC04_CompletePurchase.testCompletePurchase()[pri:0, instance:testCases.TC04_CompletePurchase@71c27ee8]" name="testCompletePurchase" class="testCases.TC04_CompletePurchase"/>
+        <method signature="TC05_AddToWishList.testAddToWishList()[pri:0, instance:testCases.TC05_AddToWishList@3e7dd664]" name="testAddToWishList" class="testCases.TC05_AddToWishList"/>
+        <method signature="TC06_AddAffiliate.testAddAffiliate()[pri:0, instance:testCases.TC06_AddAffiliate@5b1ebf56]" name="testAddAffiliate" class="testCases.TC06_AddAffiliate"/>
+        <method signature="TC01_LaunchApplication.testLaunchApplication()[pri:0, instance:testCases.TC01_LaunchApplication@46944ca9]" name="testLaunchApplication" class="testCases.TC01_LaunchApplication"/>
+        <method signature="TC02_Login.testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@22bac7bc]" name="testLogin" class="testCases.TC02_Login"/>
+        <method signature="TC03_AddToCart.testAddToCart()[pri:0, instance:testCases.TC03_AddToCart@63798ca7]" name="testAddToCart" class="testCases.TC03_AddToCart"/>
+        <method signature="TC04_CompletePurchase.testCompletePurchase()[pri:0, instance:testCases.TC04_CompletePurchase@4612b856]" name="testCompletePurchase" class="testCases.TC04_CompletePurchase"/>
+        <method signature="TC05_AddToWishList.testAddToWishList()[pri:0, instance:testCases.TC05_AddToWishList@22875539]" name="testAddToWishList" class="testCases.TC05_AddToWishList"/>
+        <method signature="TC06_AddAffiliate.testAddAffiliate()[pri:0, instance:testCases.TC06_AddAffiliate@5674e1f2]" name="testAddAffiliate" class="testCases.TC06_AddAffiliate"/>
+        <method signature="TC01_LaunchApplication.testLaunchApplication()[pri:0, instance:testCases.TC01_LaunchApplication@2a448449]" name="testLaunchApplication" class="testCases.TC01_LaunchApplication"/>
+        <method signature="TC02_Login.testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@32f232a5]" name="testLogin" class="testCases.TC02_Login"/>
+        <method signature="TC03_AddToCart.testAddToCart()[pri:0, instance:testCases.TC03_AddToCart@43f82e78]" name="testAddToCart" class="testCases.TC03_AddToCart"/>
+        <method signature="TC04_CompletePurchase.testCompletePurchase()[pri:0, instance:testCases.TC04_CompletePurchase@e54303]" name="testCompletePurchase" class="testCases.TC04_CompletePurchase"/>
+        <method signature="TC05_AddToWishList.testAddToWishList()[pri:0, instance:testCases.TC05_AddToWishList@e8df99a]" name="testAddToWishList" class="testCases.TC05_AddToWishList"/>
+        <method signature="TC06_AddAffiliate.testAddAffiliate()[pri:0, instance:testCases.TC06_AddAffiliate@2dc995f4]" name="testAddAffiliate" class="testCases.TC06_AddAffiliate"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC01_LaunchApplication.testLaunchApplication()[pri:0, instance:testCases.TC01_LaunchApplication@3da30852]" name="testLaunchApplication" class="testCases.TC01_LaunchApplication"/>
+        <method signature="TC02_Login.testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@77825085]" name="testLogin" class="testCases.TC02_Login"/>
+        <method signature="TC03_AddToCart.testAddToCart()[pri:0, instance:testCases.TC03_AddToCart@3568f9d2]" name="testAddToCart" class="testCases.TC03_AddToCart"/>
+        <method signature="TC04_CompletePurchase.testCompletePurchase()[pri:0, instance:testCases.TC04_CompletePurchase@71c27ee8]" name="testCompletePurchase" class="testCases.TC04_CompletePurchase"/>
+        <method signature="TC01_LaunchApplication.testLaunchApplication()[pri:0, instance:testCases.TC01_LaunchApplication@46944ca9]" name="testLaunchApplication" class="testCases.TC01_LaunchApplication"/>
+        <method signature="TC02_Login.testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@22bac7bc]" name="testLogin" class="testCases.TC02_Login"/>
+        <method signature="TC03_AddToCart.testAddToCart()[pri:0, instance:testCases.TC03_AddToCart@63798ca7]" name="testAddToCart" class="testCases.TC03_AddToCart"/>
+        <method signature="TC04_CompletePurchase.testCompletePurchase()[pri:0, instance:testCases.TC04_CompletePurchase@4612b856]" name="testCompletePurchase" class="testCases.TC04_CompletePurchase"/>
+        <method signature="TC01_LaunchApplication.testLaunchApplication()[pri:0, instance:testCases.TC01_LaunchApplication@2a448449]" name="testLaunchApplication" class="testCases.TC01_LaunchApplication"/>
+        <method signature="TC02_Login.testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@32f232a5]" name="testLogin" class="testCases.TC02_Login"/>
+        <method signature="TC03_AddToCart.testAddToCart()[pri:0, instance:testCases.TC03_AddToCart@43f82e78]" name="testAddToCart" class="testCases.TC03_AddToCart"/>
+        <method signature="TC04_CompletePurchase.testCompletePurchase()[pri:0, instance:testCases.TC04_CompletePurchase@e54303]" name="testCompletePurchase" class="testCases.TC04_CompletePurchase"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2026-01-05T16:29:21 EST" name="firefoxTest" finished-at="2026-01-05T16:30:39 EST" duration-ms="78605">
+      <class name="testCases.TC02_Login">
+        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@32f232a5]" started-at="2026-01-05T16:29:34 EST" name="openApp" finished-at="2026-01-05T16:29:38 EST" duration-ms="3694" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@32f232a5]" started-at="2026-01-05T16:29:38 EST" name="testLogin" data-provider="LoginData" finished-at="2026-01-05T16:29:39 EST" duration-ms="1277" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[smitasharma.qa@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ss*QA123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@32f232a5]" started-at="2026-01-05T16:29:40 EST" name="testLogin" data-provider="LoginData" finished-at="2026-01-05T16:29:41 EST" duration-ms="987" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nona@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QWER!@#$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@32f232a5]" started-at="2026-01-05T16:29:41 EST" name="testLogin" data-provider="LoginData" finished-at="2026-01-05T16:29:41 EST" duration-ms="891" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sid@cloudberry.services]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@32f232a5]" started-at="2026-01-05T16:29:41 EST" name="testLogin" data-provider="LoginData" finished-at="2026-01-05T16:29:42 EST" duration-ms="981" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[apushedwoman@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@32f232a5]" started-at="2026-01-05T16:29:42 EST" name="testLogin" data-provider="LoginData" finished-at="2026-01-05T16:29:44 EST" duration-ms="1118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hichamkhachiai@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hicham123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@32f232a5]" started-at="2026-01-05T16:29:44 EST" name="testLogin" data-provider="LoginData" finished-at="2026-01-05T16:29:44 EST" duration-ms="902" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[raymond.rohring@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CloudBerry123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.TC02_Login@32f232a5]" started-at="2026-01-05T16:29:44 EST" name="closeApp" finished-at="2026-01-05T16:29:45 EST" duration-ms="484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testCases.TC02_Login -->
+      <class name="testCases.TC05_AddToWishList">
+        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC05_AddToWishList@e8df99a]" started-at="2026-01-05T16:30:05 EST" name="openApp" finished-at="2026-01-05T16:30:09 EST" duration-ms="3920" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method retried="true" signature="testAddToWishList()[pri:0, instance:testCases.TC05_AddToWishList@e8df99a]" started-at="2026-01-05T16:30:09 EST" name="testAddToWishList" finished-at="2026-01-05T16:30:11 EST" duration-ms="2504" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test failed due to unexpected exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test failed due to unexpected exception
+at org.testng.Assert.fail(Assert.java:111)
+at testCases.TC05_AddToWishList.testAddToWishList(TC05_AddToWishList.java:86)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToWishList -->
+        <test-method retried="true" signature="testAddToWishList()[pri:0, instance:testCases.TC05_AddToWishList@e8df99a]" started-at="2026-01-05T16:30:11 EST" name="testAddToWishList" finished-at="2026-01-05T16:30:21 EST" duration-ms="10124" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test failed due to unexpected exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test failed due to unexpected exception
+at org.testng.Assert.fail(Assert.java:111)
+at testCases.TC05_AddToWishList.testAddToWishList(TC05_AddToWishList.java:86)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToWishList -->
+        <test-method signature="testAddToWishList()[pri:0, instance:testCases.TC05_AddToWishList@e8df99a]" started-at="2026-01-05T16:30:21 EST" name="testAddToWishList" finished-at="2026-01-05T16:30:31 EST" duration-ms="10109" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test failed due to unexpected exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test failed due to unexpected exception
+at org.testng.Assert.fail(Assert.java:111)
+at testCases.TC05_AddToWishList.testAddToWishList(TC05_AddToWishList.java:86)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToWishList -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.TC05_AddToWishList@e8df99a]" started-at="2026-01-05T16:30:32 EST" name="closeApp" finished-at="2026-01-05T16:30:32 EST" duration-ms="591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testCases.TC05_AddToWishList -->
+      <class name="testCases.TC01_LaunchApplication">
+        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC01_LaunchApplication@2a448449]" started-at="2026-01-05T16:29:21 EST" name="openApp" finished-at="2026-01-05T16:29:33 EST" duration-ms="12507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testLaunchApplication()[pri:0, instance:testCases.TC01_LaunchApplication@2a448449]" started-at="2026-01-05T16:29:33 EST" name="testLaunchApplication" finished-at="2026-01-05T16:29:33 EST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLaunchApplication -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.TC01_LaunchApplication@2a448449]" started-at="2026-01-05T16:29:33 EST" name="closeApp" finished-at="2026-01-05T16:29:34 EST" duration-ms="516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testCases.TC01_LaunchApplication -->
+      <class name="testCases.TC03_AddToCart">
+        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_AddToCart@43f82e78]" started-at="2026-01-05T16:29:45 EST" name="openApp" finished-at="2026-01-05T16:29:49 EST" duration-ms="3649" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testAddToCart()[pri:0, instance:testCases.TC03_AddToCart@43f82e78]" started-at="2026-01-05T16:29:49 EST" name="testAddToCart" finished-at="2026-01-05T16:29:52 EST" duration-ms="3384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.TC03_AddToCart@43f82e78]" started-at="2026-01-05T16:29:52 EST" name="closeApp" finished-at="2026-01-05T16:29:52 EST" duration-ms="484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testCases.TC03_AddToCart -->
+      <class name="testCases.TC06_AddAffiliate">
+        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC06_AddAffiliate@2dc995f4]" started-at="2026-01-05T16:30:32 EST" name="openApp" finished-at="2026-01-05T16:30:36 EST" duration-ms="3300" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testAddAffiliate()[pri:0, instance:testCases.TC06_AddAffiliate@2dc995f4]" started-at="2026-01-05T16:30:36 EST" name="testAddAffiliate" finished-at="2026-01-05T16:30:39 EST" duration-ms="3051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddAffiliate -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.TC06_AddAffiliate@2dc995f4]" started-at="2026-01-05T16:30:39 EST" name="closeApp" finished-at="2026-01-05T16:30:39 EST" duration-ms="486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testCases.TC06_AddAffiliate -->
+      <class name="testCases.TC04_CompletePurchase">
+        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC04_CompletePurchase@e54303]" started-at="2026-01-05T16:29:52 EST" name="openApp" finished-at="2026-01-05T16:29:57 EST" duration-ms="4190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method retried="true" signature="testCompletePurchase()[pri:0, instance:testCases.TC04_CompletePurchase@e54303]" started-at="2026-01-05T16:29:57 EST" name="testCompletePurchase" finished-at="2026-01-05T16:30:03 EST" duration-ms="6332" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test failed due to unexpected exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test failed due to unexpected exception
+at org.testng.Assert.fail(Assert.java:111)
+at testCases.TC04_CompletePurchase.testCompletePurchase(TC04_CompletePurchase.java:94)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompletePurchase -->
+        <test-method retried="true" signature="testCompletePurchase()[pri:0, instance:testCases.TC04_CompletePurchase@e54303]" started-at="2026-01-05T16:30:03 EST" name="testCompletePurchase" finished-at="2026-01-05T16:30:04 EST" duration-ms="556" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test failed due to unexpected exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test failed due to unexpected exception
+at org.testng.Assert.fail(Assert.java:111)
+at testCases.TC04_CompletePurchase.testCompletePurchase(TC04_CompletePurchase.java:94)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompletePurchase -->
+        <test-method signature="testCompletePurchase()[pri:0, instance:testCases.TC04_CompletePurchase@e54303]" started-at="2026-01-05T16:30:04 EST" name="testCompletePurchase" finished-at="2026-01-05T16:30:04 EST" duration-ms="569" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test failed due to unexpected exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test failed due to unexpected exception
+at org.testng.Assert.fail(Assert.java:111)
+at testCases.TC04_CompletePurchase.testCompletePurchase(TC04_CompletePurchase.java:94)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompletePurchase -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.TC04_CompletePurchase@e54303]" started-at="2026-01-05T16:30:04 EST" name="closeApp" finished-at="2026-01-05T16:30:05 EST" duration-ms="463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testCases.TC04_CompletePurchase -->
+    </test> <!-- firefoxTest -->
+    <test started-at="2026-01-05T16:29:21 EST" name="chromeTest" finished-at="2026-01-05T16:30:45 EST" duration-ms="83873">
+      <class name="testCases.TC02_Login">
+        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@77825085]" started-at="2026-01-05T16:29:34 EST" name="openApp" finished-at="2026-01-05T16:29:36 EST" duration-ms="2270" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@77825085]" started-at="2026-01-05T16:29:38 EST" name="testLogin" data-provider="LoginData" finished-at="2026-01-05T16:29:39 EST" duration-ms="1282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[smitasharma.qa@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ss*QA123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@77825085]" started-at="2026-01-05T16:29:39 EST" name="testLogin" data-provider="LoginData" finished-at="2026-01-05T16:29:40 EST" duration-ms="969" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nona@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QWER!@#$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@77825085]" started-at="2026-01-05T16:29:40 EST" name="testLogin" data-provider="LoginData" finished-at="2026-01-05T16:29:41 EST" duration-ms="933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sid@cloudberry.services]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@77825085]" started-at="2026-01-05T16:29:41 EST" name="testLogin" data-provider="LoginData" finished-at="2026-01-05T16:29:42 EST" duration-ms="1015" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[apushedwoman@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@77825085]" started-at="2026-01-05T16:29:42 EST" name="testLogin" data-provider="LoginData" finished-at="2026-01-05T16:29:43 EST" duration-ms="936" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hichamkhachiai@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hicham123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@77825085]" started-at="2026-01-05T16:29:43 EST" name="testLogin" data-provider="LoginData" finished-at="2026-01-05T16:29:44 EST" duration-ms="1016" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[raymond.rohring@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CloudBerry123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.TC02_Login@77825085]" started-at="2026-01-05T16:29:44 EST" name="closeApp" finished-at="2026-01-05T16:29:44 EST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testCases.TC02_Login -->
+      <class name="testCases.TC05_AddToWishList">
+        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC05_AddToWishList@3e7dd664]" started-at="2026-01-05T16:30:03 EST" name="openApp" finished-at="2026-01-05T16:30:05 EST" duration-ms="2143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method retried="true" signature="testAddToWishList()[pri:0, instance:testCases.TC05_AddToWishList@3e7dd664]" started-at="2026-01-05T16:30:05 EST" name="testAddToWishList" finished-at="2026-01-05T16:30:17 EST" duration-ms="12590" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test failed due to unexpected exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test failed due to unexpected exception
+at org.testng.Assert.fail(Assert.java:111)
+at testCases.TC05_AddToWishList.testAddToWishList(TC05_AddToWishList.java:86)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToWishList -->
+        <test-method retried="true" signature="testAddToWishList()[pri:0, instance:testCases.TC05_AddToWishList@3e7dd664]" started-at="2026-01-05T16:30:17 EST" name="testAddToWishList" finished-at="2026-01-05T16:30:28 EST" duration-ms="10127" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test failed due to unexpected exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test failed due to unexpected exception
+at org.testng.Assert.fail(Assert.java:111)
+at testCases.TC05_AddToWishList.testAddToWishList(TC05_AddToWishList.java:86)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToWishList -->
+        <test-method signature="testAddToWishList()[pri:0, instance:testCases.TC05_AddToWishList@3e7dd664]" started-at="2026-01-05T16:30:28 EST" name="testAddToWishList" finished-at="2026-01-05T16:30:38 EST" duration-ms="10125" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test failed due to unexpected exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test failed due to unexpected exception
+at org.testng.Assert.fail(Assert.java:111)
+at testCases.TC05_AddToWishList.testAddToWishList(TC05_AddToWishList.java:86)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToWishList -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.TC05_AddToWishList@3e7dd664]" started-at="2026-01-05T16:30:38 EST" name="closeApp" finished-at="2026-01-05T16:30:38 EST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testCases.TC05_AddToWishList -->
+      <class name="testCases.TC01_LaunchApplication">
+        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC01_LaunchApplication@3da30852]" started-at="2026-01-05T16:29:21 EST" name="openApp" finished-at="2026-01-05T16:29:33 EST" duration-ms="12581" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testLaunchApplication()[pri:0, instance:testCases.TC01_LaunchApplication@3da30852]" started-at="2026-01-05T16:29:33 EST" name="testLaunchApplication" finished-at="2026-01-05T16:29:33 EST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLaunchApplication -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.TC01_LaunchApplication@3da30852]" started-at="2026-01-05T16:29:33 EST" name="closeApp" finished-at="2026-01-05T16:29:34 EST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testCases.TC01_LaunchApplication -->
+      <class name="testCases.TC03_AddToCart">
+        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_AddToCart@3568f9d2]" started-at="2026-01-05T16:29:44 EST" name="openApp" finished-at="2026-01-05T16:29:46 EST" duration-ms="2272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testAddToCart()[pri:0, instance:testCases.TC03_AddToCart@3568f9d2]" started-at="2026-01-05T16:29:46 EST" name="testAddToCart" finished-at="2026-01-05T16:29:50 EST" duration-ms="3529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.TC03_AddToCart@3568f9d2]" started-at="2026-01-05T16:29:50 EST" name="closeApp" finished-at="2026-01-05T16:29:50 EST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testCases.TC03_AddToCart -->
+      <class name="testCases.TC06_AddAffiliate">
+        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC06_AddAffiliate@5b1ebf56]" started-at="2026-01-05T16:30:38 EST" name="openApp" finished-at="2026-01-05T16:30:41 EST" duration-ms="2700" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testAddAffiliate()[pri:0, instance:testCases.TC06_AddAffiliate@5b1ebf56]" started-at="2026-01-05T16:30:41 EST" name="testAddAffiliate" finished-at="2026-01-05T16:30:44 EST" duration-ms="3395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddAffiliate -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.TC06_AddAffiliate@5b1ebf56]" started-at="2026-01-05T16:30:44 EST" name="closeApp" finished-at="2026-01-05T16:30:45 EST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testCases.TC06_AddAffiliate -->
+      <class name="testCases.TC04_CompletePurchase">
+        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC04_CompletePurchase@71c27ee8]" started-at="2026-01-05T16:29:50 EST" name="openApp" finished-at="2026-01-05T16:29:52 EST" duration-ms="2484" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method retried="true" signature="testCompletePurchase()[pri:0, instance:testCases.TC04_CompletePurchase@71c27ee8]" started-at="2026-01-05T16:29:52 EST" name="testCompletePurchase" finished-at="2026-01-05T16:29:59 EST" duration-ms="6854" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test failed due to unexpected exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test failed due to unexpected exception
+at org.testng.Assert.fail(Assert.java:111)
+at testCases.TC04_CompletePurchase.testCompletePurchase(TC04_CompletePurchase.java:94)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompletePurchase -->
+        <test-method retried="true" signature="testCompletePurchase()[pri:0, instance:testCases.TC04_CompletePurchase@71c27ee8]" started-at="2026-01-05T16:29:59 EST" name="testCompletePurchase" finished-at="2026-01-05T16:30:01 EST" duration-ms="1635" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test failed due to unexpected exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test failed due to unexpected exception
+at org.testng.Assert.fail(Assert.java:111)
+at testCases.TC04_CompletePurchase.testCompletePurchase(TC04_CompletePurchase.java:94)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompletePurchase -->
+        <test-method signature="testCompletePurchase()[pri:0, instance:testCases.TC04_CompletePurchase@71c27ee8]" started-at="2026-01-05T16:30:01 EST" name="testCompletePurchase" finished-at="2026-01-05T16:30:02 EST" duration-ms="1604" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test failed due to unexpected exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test failed due to unexpected exception
+at org.testng.Assert.fail(Assert.java:111)
+at testCases.TC04_CompletePurchase.testCompletePurchase(TC04_CompletePurchase.java:94)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompletePurchase -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.TC04_CompletePurchase@71c27ee8]" started-at="2026-01-05T16:30:03 EST" name="closeApp" finished-at="2026-01-05T16:30:03 EST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testCases.TC04_CompletePurchase -->
+    </test> <!-- chromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
