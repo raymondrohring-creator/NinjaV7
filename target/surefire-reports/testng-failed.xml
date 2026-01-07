@@ -4,6 +4,24 @@
   <listeners>
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
+  <test thread-count="5" parallel="tests" name="chromeTest(failed)" verbose="0">
+    <parameter name="os" value="mac"/>
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testCases.TC05_AddToWishList">
+        <methods>
+          <include name="openApp"/>
+          <include name="testAddToWishList"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- testCases.TC05_AddToWishList -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
   <test thread-count="5" parallel="tests" name="firefoxTest(failed)" verbose="0">
     <parameter name="os" value="mac"/>
     <parameter name="browser" value="firefox"/>

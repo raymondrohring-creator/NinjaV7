@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 echo "========================================"
-echo " Starting NinjaV6 Maven Test Run"
+echo " Starting NinjaV7 Maven Test Run"
 echo "========================================"
 echo ""
 
