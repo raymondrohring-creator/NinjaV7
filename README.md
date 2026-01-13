@@ -1,5 +1,6 @@
 # NinjaV7 – Selenium Hybrid Automation Framework (CloudBerry Store)
 NinjaV7 is an enterprise-grade Selenium Hybrid Automation Framework built for the CloudBerry Store (OpenCart) application.
+
 This framework follows real-world industry standards and is designed for scalable, maintainable, and high-performance test automation without using BDD/Cucumber.
 
 ## 🔧 Tech Stack
@@ -14,7 +15,7 @@ This framework follows real-world industry standards and is designed for scalabl
 * Browser Support: Chrome, Firefox, Edge
 
 ## 🧱 Framework Architecture (NinjaV7)
-
+`
 NinjaV7
 ├── src/test/java
 │   ├── pageObjects        # Page Object Model classes
@@ -32,7 +33,7 @@ NinjaV7
 ├── testng.xml             # Suite configuration
 ├── pom.xml                # Maven dependencies
 └── README.md
-
+`
 
 ## 🚀 Key Features
 * ✅ Hybrid framework design (POM + utilities + TestNG)
@@ -66,28 +67,38 @@ public void verifyLogin() {
 
 ## ▶️ How to Run the Tests
 ### 🔹 Run via TestNG XML
+```
 Right click testng.xml → Run as TestNG Suite
+```
 ### 🔹 Run via Maven
+```
 mvn test
-
+```
 ## 🌐 Application Under Test
 CloudBerry Store (OpenCart)
+`
 https://www.cloudberrystore.services
-
+`
 ## 🧪 Test Execution Control
 ### 🔹 Run by TestNG Groups
+```
 <groups>
   <run>
     <include name="sanity"/>
   </run>
 </groups>
-### 🔹 Parallel Execution
+```
+        
+### 🔹 Parallel Execution        
+```
 <suite parallel="tests" thread-count="3">
+```
 
 ## 📊 Reports
 * Extent Report: Generated after execution
-`/test-output/ExtentReport.html`
-
+`
+/test-output/ExtentReport.html
+`
 * Screenshots: Captured automatically on test failure
 
 ## 🧠 Framework Design Philosophy
