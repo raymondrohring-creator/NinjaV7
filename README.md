@@ -48,7 +48,7 @@ NinjaV7
 * ✅ Parallel execution ready
 
 ## 📘 Sample Test Case (Hybrid – TestNG)
-```
+```java
 @Test(groups = {"sanity","regression"})
 public void verifyLogin() {
     HomePage home = new HomePage(driver);
@@ -76,12 +76,13 @@ mvn test
 ```
 ## 🌐 Application Under Test
 CloudBerry Store (OpenCart)
-`
+
+```
 https://www.cloudberrystore.services
-`
+```
 ## 🧪 Test Execution Control
 ### 🔹 Run by TestNG Groups
-```
+```java
 <groups>
   <run>
     <include name="sanity"/>
@@ -90,12 +91,13 @@ https://www.cloudberrystore.services
 ```
         
 ### 🔹 Parallel Execution        
-```
+```java
 <suite parallel="tests" thread-count="3">
 ```
 
 ## 📊 Reports
 * Extent Report: Generated after execution
+* 
 `
 /test-output/ExtentReport.html
 `
