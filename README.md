@@ -12,7 +12,7 @@ This framework follows real-world industry standards and is designed for scalabl
 * Reporting: Extent Reports
 * Logging: Log4j
 * CI Ready: Jenkins compatible
-* Browser Support: Chrome, Firefox, Edge
+* Browser Support: Chrome, Firefox, Safari
 
 ## 🧱 Framework Architecture (NinjaV7)
 ```
@@ -98,9 +98,9 @@ https://www.cloudberrystore.services
 ## 📊 Reports
 * Extent Report: Generated after execution
 
-`
+```
 /test-output/ExtentReport.html
-`
+```
 * Screenshots: Captured automatically on test failure
 
 ## 🧠 Framework Design Philosophy
