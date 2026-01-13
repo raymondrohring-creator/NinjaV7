@@ -2,7 +2,7 @@
 NinjaV7 is an enterprise-grade Selenium Hybrid Automation Framework built for the CloudBerry Store (OpenCart) application.
 This framework follows real-world industry standards and is designed for scalable, maintainable, and high-performance test automation without using BDD/Cucumber.
 
-🔧 Tech Stack
+# 🔧 Tech Stack
 Language: Java
 Automation Tool: Selenium WebDriver 4
 Test Framework: TestNG
@@ -13,7 +13,7 @@ Logging: Log4j
 CI Ready: Jenkins compatible
 Browser Support: Chrome, Firefox, Edge
 
-🧱 Framework Architecture (NinjaV7)
+# 🧱 Framework Architecture (NinjaV7)
 
 NinjaV7
 ├── src/test/java
@@ -34,7 +34,7 @@ NinjaV7
 └── README.md
 
 
-🚀 Key Features
+# 🚀 Key Features
 ✅ Hybrid framework design (POM + utilities + TestNG)
 ✅ Reusable Page Objects
 ✅ Centralized WebDriver management
@@ -46,7 +46,7 @@ NinjaV7
 ✅ Multi-browser execution
 ✅ Parallel execution ready
 
-📘 Sample Test Case (Hybrid – TestNG)
+# 📘 Sample Test Case (Hybrid – TestNG)
 @Test(groups = {"sanity","regression"})
 public void verifyLogin() {
     HomePage home = new HomePage(driver);
@@ -62,47 +62,46 @@ public void verifyLogin() {
     Assert.assertTrue(login.isMyAccountPageDisplayed());
 }
 
-▶️ How to Run the Tests
-🔹 Run via TestNG XML
+# ▶️ How to Run the Tests
+# 🔹 Run via TestNG XML
 Right click testng.xml → Run as TestNG Suite
-🔹 Run via Maven
+# 🔹 Run via Maven
 mvn test
 
-🌐 Application Under Test
+# 🌐 Application Under Test
 CloudBerry Store (OpenCart)
 https://www.cloudberrystore.services
 
-🧪 Test Execution Control
-🔹 Run by TestNG Groups
+# 🧪 Test Execution Control
+# 🔹 Run by TestNG Groups
 <groups>
   <run>
     <include name="sanity"/>
   </run>
 </groups>
-🔹 Parallel Execution
+# 🔹 Parallel Execution
 <suite parallel="tests" thread-count="3">
 
-📊 Reports
+# 📊 Reports
 Extent Report: Generated after execution
 /test-output/ExtentReport.html
 
 Screenshots: Captured automatically on test failure
 
-🧠 Framework Design Philosophy
+# 🧠 Framework Design Philosophy
 Built for enterprise UI automation
 Clear separation of concerns
 Easy to extend for new modules
 Designed for real client projects & interviews
 
-🧩 Future Enhancements
+# 🧩 Future Enhancements
 CI/CD integration with Jenkins
 Selenium Grid / Docker support
 Cloud execution (BrowserStack / Sauce Labs)
 API automation integration
 
-👨‍🏫 Author
-Shadab Siddiqui Co-Founder – CloudBerry QA Automation | Selenium | Hybrid Framework | TestNG | CI/CD
+# 👨‍🏫 Author
+Raymond Rohring – Quality Automation Engineer | Selenium | Hybrid Framework | TestNG | CI/CD
 
-⭐ Support
+# ⭐ Support
 If you find this framework useful, give the repository a ⭐ and feel free to fork it.
-
