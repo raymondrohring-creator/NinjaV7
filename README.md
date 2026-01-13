@@ -15,7 +15,7 @@ This framework follows real-world industry standards and is designed for scalabl
 * Browser Support: Chrome, Firefox, Edge
 
 ## 🧱 Framework Architecture (NinjaV7)
-`
+```
 NinjaV7
 ├── src/test/java
 │   ├── pageObjects        # Page Object Model classes
@@ -33,7 +33,7 @@ NinjaV7
 ├── testng.xml             # Suite configuration
 ├── pom.xml                # Maven dependencies
 └── README.md
-`
+```
 
 ## 🚀 Key Features
 * ✅ Hybrid framework design (POM + utilities + TestNG)
@@ -97,7 +97,7 @@ https://www.cloudberrystore.services
 
 ## 📊 Reports
 * Extent Report: Generated after execution
-* 
+
 `
 /test-output/ExtentReport.html
 `
