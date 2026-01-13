@@ -35,18 +35,19 @@ NinjaV7
 
 
 ## 🚀 Key Features
-✅ Hybrid framework design (POM + utilities + TestNG)
-✅ Reusable Page Objects
-✅ Centralized WebDriver management
-✅ TestNG annotations & grouping
-✅ Retry mechanism for flaky tests
-✅ Screenshot capture on failure
-✅ Extent HTML reports
-✅ Data-driven testing support
-✅ Multi-browser execution
-✅ Parallel execution ready
+* ✅ Hybrid framework design (POM + utilities + TestNG)
+* ✅ Reusable Page Objects
+* ✅ Centralized WebDriver management
+* ✅ TestNG annotations & grouping
+* ✅ Retry mechanism for flaky tests
+* ✅ Screenshot capture on failure
+* ✅ Extent HTML reports
+* ✅ Data-driven testing support
+* ✅ Multi-browser execution
+* ✅ Parallel execution ready
 
 ## 📘 Sample Test Case (Hybrid – TestNG)
+```
 @Test(groups = {"sanity","regression"})
 public void verifyLogin() {
     HomePage home = new HomePage(driver);
@@ -61,6 +62,7 @@ public void verifyLogin() {
 
     Assert.assertTrue(login.isMyAccountPageDisplayed());
 }
+```
 
 ## ▶️ How to Run the Tests
 ### 🔹 Run via TestNG XML
@@ -83,22 +85,22 @@ https://www.cloudberrystore.services
 <suite parallel="tests" thread-count="3">
 
 ## 📊 Reports
-Extent Report: Generated after execution
-/test-output/ExtentReport.html
+* Extent Report: Generated after execution
+`/test-output/ExtentReport.html`
 
-Screenshots: Captured automatically on test failure
+* Screenshots: Captured automatically on test failure
 
 ## 🧠 Framework Design Philosophy
-Built for enterprise UI automation
-Clear separation of concerns
-Easy to extend for new modules
-Designed for real client projects & interviews
+* Built for enterprise UI automation
+* Clear separation of concerns
+* Easy to extend for new modules
+* Designed for real client projects & interviews
 
 ## 🧩 Future Enhancements
-CI/CD integration with Jenkins
-Selenium Grid / Docker support
-Cloud execution (BrowserStack / Sauce Labs)
-API automation integration
+* CI/CD integration with Jenkins
+* Selenium Grid / Docker support
+* Cloud execution (BrowserStack / Sauce Labs)
+* API automation integration
 
 ## 👨‍🏫 Author
 Raymond Rohring – Quality Automation Engineer | Selenium | Hybrid Framework | TestNG | CI/CD
